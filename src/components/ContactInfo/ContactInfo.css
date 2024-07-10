@@ -1,0 +1,183 @@
+.HJ_ContactInfo {
+    background-color: var(--dark-08);
+    border-bottom: 1px solid var(--dark-15);
+    width: 100%;
+    margin-top: 99px;
+}
+
+.HJ_ContactInfo .HJ_partsContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(4) {
+    border-right: 0px;
+}
+
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding-right: 50px;
+    border-right: 1px solid var(--dark-15);
+    width: 23%;
+    height: 100%;
+}
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(3) {
+    padding-bottom: 70px;
+}
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_buttons_Info {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group .HJ_Icon_info {
+    display: flex;
+    padding: 18px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-15);
+    background: var(--dark-10);
+    width: 33%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo {
+        width: 50%;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(2) {
+        border-right: none;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(2),
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(4) {
+        padding-left: 16px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(1),
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(2) {
+        border-bottom: 1px solid var(--dark-15);
+    }
+}
+
+@media screen and (max-width: 1919px) {
+
+    .HJ_ContactInfo {
+        margin-top: 75px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact {
+        flex-wrap: wrap;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo {
+        padding: 40px 0px;
+        gap: 30px;
+        padding-right: 30px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo:nth-child(3) {
+        padding-bottom: 60px;
+    }
+
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_buttons_Info {
+        gap: 10px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group {
+        gap: 10px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group .HJ_Icon_info {
+        padding: 14px 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .HJ_ContactInfo {
+        margin-top: 76px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo {
+        padding: 20px 0px;
+        gap: 20px;
+        padding-right: 0px;
+        width: 50%;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_buttons_Info {
+        gap: 10px;
+        padding-left: 7%;
+        align-items: flex-start;
+        width: 60%;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group {
+        gap: 10px;
+        padding-left: 7%;
+        align-items: flex-start;
+        width: 60%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_ContactInfo {
+        margin-top: 75px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo {
+        padding: 20px 0px;
+        gap: 20px;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--dark-15);
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_buttons_Info {
+        gap: 10px;
+        padding-left: 50px;
+        width: 100%;
+
+    }
+
+    .HJ_ContactInfo .HJ_partsContact .HJ_ContentInfo .HJ_icons_group {
+        gap: 10px;
+        padding-left: 50px;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,21 @@
+.fa_resoursesNumber {
+    flex-wrap: wrap;
+}
+
+.fa_resoursesNumber .fa_big {
+    border-right: 1px solid var(--dark-15);
+}
+
+.fa_resoursesNumber .fa_big:nth-child(4) {
+    border-right: none;
+}
+
+@media screen and (max-width: 767px) {
+    .fa_resoursesNumber .fa_big:nth-child(2) {
+        border-right: none;
+    }
+
+    .fa_resoursesNumber .fa_NumCard {
+        border-bottom: 1px solid var(--dark-15);
+    }
+}

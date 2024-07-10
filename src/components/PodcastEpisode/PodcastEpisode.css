@@ -1,0 +1,70 @@
+.fa_episode {
+    width: 29%;
+    padding-block: 80px;
+    position: relative;
+}
+
+.fa_episodtitle-conatiner{
+    margin-block: 30px;
+}
+
+.fa_episode-title {
+    font-family: var(--inter);
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.04125rem;
+
+    margin-bottom: 14px;
+}
+
+
+
+
+
+@media screen and (max-width: 1919px) {
+    .fa_episode {
+        padding-block: 60px;
+    }
+
+    .fa_episodtitle-conatiner{
+        margin-block: 24px;
+    }
+
+    .fa_episode-title {
+        font-size: 1.125rem;
+        letter-spacing: -0.03375rem;
+    
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fa_episode {
+        width: 45%;
+        padding-block: 40px;
+    }
+
+    .fa_episodtitle-conatiner{
+        margin-block: 20px;
+    }
+
+    .fa_episode-title {
+        font-size: 1rem;
+        letter-spacing: -0.03rem;
+    
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa_episode {
+        width: 100%;
+        border-bottom: 1px solid var(--dark-15);
+    }
+
+    .fa_width-100-xs{
+        width: 100%;
+        text-align: center;
+    }
+}

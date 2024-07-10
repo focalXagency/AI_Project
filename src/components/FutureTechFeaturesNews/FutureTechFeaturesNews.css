@@ -1,0 +1,54 @@
+
+.HJ_FutureTechFeaturesNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.HJ_imgSize_Features-1{
+    width: 80px;
+    height:80px;
+}
+.HJ_imgSize_Features-2{
+    width: 92.384px;
+    height: 80px;
+}
+
+
+@media screen and (max-width: 1919px){
+
+    .HJ_FutureTechFeaturesNews{
+        gap: 40px;
+    }
+    .HJ_imgSize_Features-1{
+        width: 60px;
+        height:60px;
+    }
+    .HJ_imgSize_Features-2{
+        width: 69.288px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .HJ_FutureTechFeaturesNews{
+        gap: 20px;
+    }
+    .HJ_imgSize_Features-1{
+        width: 50px;
+        height:50px;
+    }
+    .HJ_imgSize_Features-2{
+        width: 57.74px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_FutureTechFeaturesNews.sa_sar h5 {
+        margin-bottom: 0.25rem;
+    }
+}

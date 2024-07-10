@@ -1,0 +1,32 @@
+.HJ_ProdcastSectionCards {
+    border-top: 1px solid var(--dark-15);
+    background-color: var(--dark-08);
+}
+
+.HJ_THeContentProdcast {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    ;
+}
+
+@media screen and (max-width: 1919px) {
+
+    .HJ_THeContentProdcast {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        ;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .HJ_THeContentProdcast {
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+    }
+
+}

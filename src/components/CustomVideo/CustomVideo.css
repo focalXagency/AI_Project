@@ -1,0 +1,75 @@
+.fa_CustomVideo video {
+    width: 100%;
+    height: 412px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.fa_CustomVideo.fa_episod-vid video {
+    height: 290px;
+}
+
+
+.fa_play-video_icon {
+    width: 70px;
+    aspect-ratio: 1;
+}
+
+.fa_customVideo-play_button {
+    position: absolute;
+    inset: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background: linear-gradient(to top, #141414, #fff0);
+}
+
+
+.fa_CustomVideo.fa_podcast-vid .fa_customVideo-play_button .fa_play-video_icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fa_CustomVideo.fa_podcast-vid .fa_customVideo-play_button p {
+    display: none;
+}
+
+
+@media screen and (max-width: 1919px) {
+    .fa_CustomVideo video {
+        height: 331px;
+        border-radius: 10px;
+    }
+
+    .fa_CustomVideo.fa_podcast-vid video {
+        height: 297px;
+        border-radius: 10px;
+    }
+
+    .fa_play-video_icon {
+        width: 50px;
+        aspect-ratio: 1;
+    }
+
+    .fa_CustomVideo.fa_episod-vid video {
+        height: 244px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa_CustomVideo video {
+        height: 210px;
+    }
+
+    .fa_CustomVideo.fa_podcast-vid video {
+        height: 157px;
+    }
+
+    .fa_CustomVideo.fa_episod-vid video {
+        height: 208px;
+    }
+}

@@ -1,0 +1,26 @@
+.sa_blogCardsDiv {
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1919px) {
+    .sa_blogCardsDiv {
+        padding: 3.75rem 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .sa_blogCardsDiv {
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sa_blogCardsDiv {
+        padding: 2.5rem 0;
+    }
+}

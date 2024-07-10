@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+  --yellow-55: #FFD11A;
+  --red: #F50;
+  --dark-08: #141414;
+  --dark-10: #1A1A1A;
+  --dark-15: #262626;
+  --dark-20: #333;
+  --dark-40: #666;
+  --gray-50: #7E7E7E;
+  --gray-60: #989898;
+
+  --absolute-White: #FFF;
+
+  --kumbh-sans: "Kumbh Sans", sans-serif;
+  --inter: "Inter", sans-serif;
+}
+
+body{
+  background-color: var(--dark-08);
+}
+
+
+.text-absolute-White {
+  color: var(--absolute-White);
+}
+
+.text-dark-40 {
+  color: var(--dark-40);
+}
+
+.text-gray-50 {
+  color: var(--gray-50);
+}
+
+.text-gray-60 {
+  color: var(--gray-60);
+}
+
+.bg-dark-08 {
+  background-color: var(--dark-08);
+}
+
+.bg-dark-10 {
+  background-color: var(--dark-10);
+}
+
+.sub_title-125 {
+  font-family: var(--inter);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.03375rem;
+}
+
+.sub_title-125_feature {
+  font-family: var(--inter);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.03375rem;
+}
+
+.title-25-4 {
+  font-family: var(--inter);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.0375rem;
+}
+.desc_blog {
+  font-family: var(--inter);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.0375rem;
+}
+
+.title-25-5 {
+  font-family: var(--inter);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.0375rem;
+}
+
+.title-5 {
+  font-family: var(--inter);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.045rem;
+}
+
+.title-5-5 {
+  font-family: var(--inter);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.045rem;
+}
+
+.title-prodcast{
+  font-family: var(--inter);
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 150%; 
+  letter-spacing: -0.04875rem;
+}
+.title-2 {
+  font-family: var(--kumbh-sans);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.075rem;
+}
+
+.title-3 {
+  font-family: var(--kumbh-sans);
+  font-size: 3.625rem;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.10875rem;
+}
+
+.title-4b {
+  font-family: var(--kumbh-sans);
+  font-size: 4.375rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.13125rem;
+}
+.title_CardBlog{
+  font-family: var(--inter);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.06rem;
+}
+
+.cursor:hover {
+  cursor: pointer;
+}
+
+.container_custom {
+  max-width: 1564px;
+  padding-inline: 16px !important;
+  margin-inline: auto;
+}
+
+.fa_arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.main_button {
+  padding: 18px 24px;
+  border: 1px solid var(--dark-15);
+  border-radius: 12px;
+  background-color: var(--dark-08);
+  text-decoration: none;
+  transition: .3s;
+}
+
+.main_button:hover {
+  background-color: var(--dark-15);
+}
+
+@media screen and (max-width: 1919px) {
+  .container_custom {
+    max-width: 1248px;
+  }
+
+  .sub_title-125 {
+    font-size: 0.875rem;
+    letter-spacing: -0.02625rem;
+  }
+
+  .title-5 {
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
+
+  .sub_title-125_feature{
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+  }
+
+  .title-5-5 {
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
+  .title-prodcast{
+    font-size: 1.375rem;
+    letter-spacing: -0.04125rem;
+  }
+
+  .main_button {
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+
+  .title-4b {
+    font-size: 3.4375rem;
+    letter-spacing: -0.10313rem;
+  }
+
+  .title-2 {
+    font-size: 1.875rem;
+    letter-spacing: -0.05625rem;
+  }
+
+  .title-25-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+
+  .title-25-4 {
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+  }
+  .desc_blog {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+  .title-5 {
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
+
+  .title-3 {
+    font-size: 2.75rem;
+    letter-spacing: -0.0825rem;
+  }
+
+  .title_CardBlog{
+    font-size: 1.5rem;
+    letter-spacing: -0.045rem;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .container_custom {
+    max-width: 100%;
+  }
+
+  .fa_arrow-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sub_title-125 {
+    font-size: 0.75rem;
+    letter-spacing: -0.0225rem;
+  }
+
+  .title-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+  
+  .sub_title-125_feature{
+    font-size: 0.875rem;
+    letter-spacing: -0.02625rem;
+  }
+
+  .title-5-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+
+  .title-4b {
+    font-size: 1.875rem;
+    letter-spacing: -0.05625rem;
+  }
+
+  .title-2 {
+    font-size: 1.5rem;
+    letter-spacing: -0.045rem;
+  }
+
+  .title-25-5 {
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+  }
+
+  .title-25-4 {
+    font-size: 0.875rem;
+    letter-spacing: -0.02625rem;
+  }
+
+  .title-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+
+  .title-3 {
+    font-size: 1.75rem;
+    letter-spacing: -0.0525rem;
+  }
+
+  .title_CardBlog{
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-08);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--yellow-55);
+  border-radius: 3px;
+}
+
+
+
+
+
+/* Fadi's Global use classes */
+
+.fa_border-bottom {
+  border-bottom: 1px solid var(--dark-15);
+}
+
+/* Hind's Global use classes */
+
+.HJ_subTitle {
+  width: max-content;
+  border-radius: 4px;
+  background: var(--dark-20);
+  color: var(--absolute-White);
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}

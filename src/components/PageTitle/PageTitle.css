@@ -1,0 +1,138 @@
+.sa_PageTitle {
+    margin-top: 80px;
+    border-bottom: 1px solid var(--dark-15);
+}
+
+.sa_containerPageTitle {
+    padding-top: 8.13rem !important;
+    padding-bottom: 8.13rem !important;
+}
+
+.sa_bigPageTitle {
+    font-family: var(--kumbh-sans);
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.15rem;
+    text-wrap: wrap;
+    margin-bottom: 1.25rem;
+}
+
+.sa_hideTitle {
+    display: none;
+}
+
+.sa_hideTitle2 {
+    display: inline;
+}
+
+.sa_divPageTitleBottom {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.sa_summaryPageTitle {
+    font-family: var(--inter);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.03375rem;
+}
+
+@media screen and (max-width: 1919px) {
+    .sa_containerPageTitle {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .sa_bigPageTitle {
+        font-size: 3.4375rem;
+        letter-spacing: -0.10313rem;
+    }
+    .sa_divPageTitleBottom {
+        gap: 3.75rem;
+    }
+
+    .sa_summaryPageTitle {
+        font-size: 1rem;
+        letter-spacing: -0.03rem;
+    }
+}
+
+
+@media screen and (max-width: 1021px) {
+    .sa_containerPageTitle {
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+
+    .sa_bigPageTitle {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .sa_divPageTitleBottom {
+        gap: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .sa_PageTitle {
+        margin-top: 75px;
+    }
+
+    .sa_containerPageTitle {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .sa_bigPageTitle {
+        font-size: 1.75rem;
+        letter-spacing: -0.0525rem;
+    }
+
+    .sa_summaryPageTitle {
+        font-size: 0.875rem;
+        letter-spacing: -0.02625rem;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .sa_divPageTitleBottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.88rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sa_PageTitle {
+        margin-top: 75px;
+    }
+
+    .sa_containerPageTitle {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .sa_bigPageTitle {
+        font-size: 1.75rem;
+        letter-spacing: -0.0525rem;
+    }
+
+    .sa_summaryPageTitle {
+        font-size: 0.875rem;
+        letter-spacing: -0.02625rem;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .sa_hideTitle {
+        display: inline;
+    }
+    .sa_hideTitle2 {
+        display: none;
+    }
+}

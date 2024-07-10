@@ -1,0 +1,38 @@
+.HJ_ReportCardsSection{
+    border-top: 1px solid var(--dark-15);
+    background-color: var(--dark-08);
+}
+.HJ_ContentSectionCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 46px;
+}
+
+
+@media screen and (max-width: 1919px) {
+
+    .HJ_ContentSectionCards{
+        width: 100%;
+        gap: 30px; 
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .HJ_ContentSectionCards{
+        flex-wrap: wrap;
+        gap: 0px; 
+        
+    }
+    
+
+}
+@media screen and (max-width: 576px) {
+
+    .HJ_ContentSectionCards{
+        flex-wrap: wrap;
+        gap: 0px; 
+        
+    }
+
+}

@@ -1,0 +1,74 @@
+.sa_PostNav {
+    padding-top: 3.12rem;
+    padding-bottom: 3.12rem;
+    border-bottom: 1px solid var(--dark-15);
+    overflow: auto;
+}
+.sa_PostNav::-webkit-scrollbar {
+    display: none;
+}
+
+.sa_PostNavTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.sa_PostNavTop button {
+    display: flex;
+    min-width: 201px !important;
+    padding: 1.875rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--dark-15);
+    text-decoration: none;
+    color: var(--gray-60);
+    background-color: transparent;
+    font-family: var(--inter);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.03375rem;
+    text-wrap: nowrap;
+}
+
+#sa_PostNavv button.active {
+    border: 1px solid var(--Dark-15, #262626);
+    background-color: var(--dark-10);
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1919px) {
+    .sa_PostNav {
+        padding-top: 2.5rem;
+        padding-bottom: 2.52rem;
+        border-bottom: 1px solid var(--dark-15);
+    }
+    .sa_PostNavTop button {
+        
+        padding: 1.5rem 1.25rem;
+        font-size: 0.875rem;
+        letter-spacing: -0.02625rem;
+    }
+    .sa_PostNavTop {
+        gap: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sa_PostNav {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--dark-15);
+    }
+    .sa_PostNavTop button {
+        padding: 1.125rem 1rem;
+        width: 202px !important;
+    }
+}

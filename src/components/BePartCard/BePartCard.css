@@ -1,0 +1,128 @@
+.HJ_Bepart_Card {
+    border: 1px solid var(--dark-15);
+    border-radius: 12px;
+    background: var(--dark-10);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.HJ_Bepart_Card .HJ_description_card {
+    font-family: var(--inter);
+    color: var(--gray-60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HJ_Bepart_Card .HJ_content_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.HJ_Bepart_Card .HJ_content_card .HJ_subtile_card {
+    color: var(--absolute-White);
+    font-family: var(--inter);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.66px;
+
+}
+
+.HJ_Bepart_Card .HJ_content_card .HJ_circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background: var(--yellow-55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1919px) {
+    .HJ_Bepart_Card {
+        padding: 30px;
+        gap: 16px;
+        border-radius: 10px;
+    }
+
+    .HJ_Bepart_Card .HJ_content_card {
+        gap: 16px;
+    }
+
+    .HJ_Bepart_Card .HJ_content_card .HJ_subtile_card {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+
+    }
+
+    .HJ_Bepart_Card .HJ_description_card {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .HJ_Bepart_Card .HJ_content_card .HJ_circle {
+        width: 44px;
+        height: 44px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .HJ_Bepart_Card {
+        display: flex;
+        padding: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .HJ_Bepart_Card .HJ_content_card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .HJ_Bepart_Card .HJ_content_card .HJ_subtile_card {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .HJ_Bepart_Card .HJ_description_card {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .HJ_Bepart_Card {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+    }
+
+    .HJ_Bepart_Card .HJ_content_card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+}

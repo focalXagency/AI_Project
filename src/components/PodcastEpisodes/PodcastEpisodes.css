@@ -1,0 +1,94 @@
+.fa_episodes-grid .fa_episode:nth-child(1)::after,
+.fa_episodes-grid .fa_episode:nth-child(2)::after,
+.fa_episodes-grid .fa_episode:nth-child(4)::after,
+.fa_episodes-grid .fa_episode:nth-child(5)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--dark-15);
+}
+
+.fa_episodes-grid .fa_episode:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 200vw;
+    background-color: var(--dark-15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1919px) {
+
+    .fa_episodes-grid .fa_episode:nth-child(1)::after,
+    .fa_episodes-grid .fa_episode:nth-child(2)::after,
+    .fa_episodes-grid .fa_episode:nth-child(4)::after,
+    .fa_episodes-grid .fa_episode:nth-child(5)::after {
+        right: -42px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .fa_episodes-grid .fa_episode:nth-child(1)::after,
+    .fa_episodes-grid .fa_episode:nth-child(2)::after,
+    .fa_episodes-grid .fa_episode:nth-child(4)::after,
+    .fa_episodes-grid .fa_episode:nth-child(5)::after {
+        right: -12%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .fa_episodes-grid .fa_episode:nth-child(5),
+    .fa_episodes-grid .fa_episode:nth-child(6) {
+        display: none;
+    }
+
+    .fa_episodes-grid .fa_episode:nth-child(2)::after,
+    .fa_episodes-grid .fa_episode:nth-child(4)::after {
+        content: none;
+    }
+
+    .fa_episodes-grid .fa_episode:nth-child(1)::after {
+        right: -11%;
+    }
+
+    .fa_episodes-grid .fa_episode:nth-child(3)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -11%;
+        width: 1px;
+        height: 100%;
+        background-color: var(--dark-15);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa_episodes-grid .fa_episode:nth-child(4) {
+        display: none;
+    }
+
+    .fa_episodes-grid .fa_episode:nth-child(1)::after,
+    .fa_episodes-grid .fa_episode:nth-child(3)::after,
+    .fa_episodes-grid .fa_episode:nth-child(2)::before {
+        content: none;
+    }
+}

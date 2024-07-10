@@ -1,0 +1,27 @@
+.HJ_learningResources {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-15);
+    background: var(--dark-08);
+    width: max-content;
+}
+
+.HJ_learningResources .HJ_learning {
+    display: flex;
+    padding: 18px 38px;
+    gap: 10px;
+    border: 1px solid var(--dark-15);
+}
+
+.HJ_learningResources .HJ_whitepapers {
+    border-radius: 10px;
+    background: var(--dark-15);
+
+}
+
+.HJ_learningResources .HJ_EBooks_Reports {
+    border-radius: 8px;
+    border: 1px solid var(--dark-15);
+}

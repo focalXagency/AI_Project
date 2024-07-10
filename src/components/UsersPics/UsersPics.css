@@ -1,0 +1,53 @@
+.fa_userimg:first-child {
+    margin-left: 0px !important;
+}
+
+.fa_userimg {
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid var(--dark-40);
+    background-color: var(--dark-15);
+    margin-left: -14px;
+}
+
+.fa_userimg-container {
+    background-color: var(--dark-10);
+    padding: 10px;
+    border: 1px solid var(--dark-15);
+    border-radius: 35px;
+}
+
+.fa_userimg-container.fa_small .fa_userimg {
+    width: 50px;
+    margin-left: -9px;
+}
+
+.fa_userimg-container.fa_small {
+    border-radius: 12px;
+    background-color: var(--dark-08);
+}
+
+
+
+
+@media screen and (max-width: 1919px) {
+    .fa_userimg {
+        width: 50px;
+    }
+
+    .fa_userimg-container.fa_small .fa_userimg {
+        width: 40px;
+    }
+
+    .fa_userimg-container {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa_userimg {
+        width: 40px;
+    }
+}

@@ -1,0 +1,118 @@
+.fa_accordion-container {
+    background-color: var(--dark-10);
+    border: 1px solid var(--dark-15);
+    padding-inline: 34px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.fa_plus-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.fa_plus-icon .fa_vertical-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 22px;
+    height: 3px;
+    background-color: var(--yellow-55);
+    border-radius: 10px;
+}
+
+.fa_plus-icon .fa_vertical-line.fa_secLine {
+    width: 0px;
+}
+
+.fa_plus-icon .fa_horisantial-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 3px;
+    height: 22px;
+    background-color: var(--yellow-55);
+    border-radius: 10px;
+}
+
+.fa_plus-icon.fa_-btn .fa_horisantial-line {
+    height: 0px;
+}
+
+.fa_plus-icon.fa_-btn span:nth-child(1) {
+    width: 0px;
+}
+
+.fa_plus-icon.fa_-btn span:nth-child(2) {
+    width: 22px;
+}
+
+.fa_transition {
+    transition: .5s;
+}
+
+.fa_accordion-btn {
+    padding-top: 34px;
+    padding-bottom: 24px;
+    border: none;
+}
+
+.fa_accordion-btn.fa_border-b {
+    border-bottom: 1px solid var(--dark-15) !important;
+}
+
+.fa_accordion-item {
+    max-height: 0px;
+}
+.fa_accordion-item.fa_openAccordion {
+    max-height: 200px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+
+@media screen and (max-width: 1919px) {
+    .fa_plus-icon {
+        width: 50px;
+        height: 20xp;
+    }
+
+    .fa_plus-icon .fa_vertical-line {
+        width: 18px;
+        height: 2px;
+    }
+
+    .fa_plus-icon.fa_-btn span:nth-child(2) {
+        width: 18px;
+    }
+
+    .fa_plus-icon .fa_horisantial-line {
+        width: 2px;
+        height: 18px;
+    }
+
+    .fa_accordion-btn {
+        padding-top: 24px;
+        padding-bottom: 20px;
+    }
+
+    .fa_accordion-item.fa_openAccordion {
+        max-height: 400px;
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+
+    .fa_accordion-container {
+        padding-inline: 24px;
+        border-radius: 10px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa_accordion-container {
+        margin-bottom: 20px;
+    }
+}

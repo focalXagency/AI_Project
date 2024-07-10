@@ -1,0 +1,142 @@
+.sa_DepthReport {
+    height: 332px;
+    border-radius: 12px;
+    margin-bottom: 1.875rem;
+    object-fit: cover;
+}
+
+.sa_title_5-5 {
+    font-family: var(--inter);
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.04875rem;
+    margin-bottom: 0.875rem;
+}
+
+.sa_buttDwonNow {
+    min-width: 35%;
+}
+
+.sa_DepthDivText {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: space-between;
+}
+
+.sa_DivDateCategAuth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sa_Div3 {
+    display: flex;
+    padding: 1.875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+    border-radius: 0.8125rem;
+    border: 1px solid var(--dark-15);
+    background: var(--dark-10);
+    width: 32.5%;
+    margin-top: 3.125rem;
+    min-width: max-content;
+}
+
+.sa_title-25__5 {
+    font-family: var(--inter);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.0375rem;
+}
+
+
+@media screen and (max-width: 1919px) {
+    .sa_DepthReport {
+        margin-bottom: 1.5rem;
+        height: 303px;
+    }
+
+    .sa_title_5-5 {
+        font-size: 1.25rem;
+        letter-spacing: -0.0375rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .sa_Div3 {
+        padding: 1.5rem;
+        align-items: flex-start;
+        gap: 0.125rem;
+        border-radius: 0.5rem;
+        width: 32%;
+        margin-top: 2.5rem;
+    }
+
+    .sa_title-25__5 {
+        font-size: 1rem;
+        letter-spacing: -0.03rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .sa_buttDwonNow {
+        width: 25rem;
+        align-self: center;
+    }
+
+    .sa_DepthDivText {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sa_DivDateCategAuth {
+        justify-content: flex-start;
+        gap: 0.625rem;
+        flex-wrap: wrap;
+    }
+
+    .sa_Div3 {
+        padding: 1.25rem;
+        margin-top: 1.875rem;
+    }
+
+    .sa_title-25__5 {
+        font-size: 0.875rem;
+        letter-spacing: -0.02625rem;
+    }
+
+    .sa_DivDateCategAuth {
+        justify-content: space-between;
+    }
+
+    .sa_Div3 {
+        width: 48.5%;
+    }
+
+    .sa_Div_3 {
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sa_DepthReport {
+        margin-bottom: 1.25rem;
+        height: 165px;
+    }
+
+    .sa_title_5-5 {
+        font-size: 1.125rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .sa_buttDwonNow {
+        width: 100%;
+    }
+}

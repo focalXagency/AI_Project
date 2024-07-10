@@ -1,0 +1,10 @@
+.sa_BorderBottom {
+    border-bottom: 1px solid var(--dark-15);
+}
+
+@media screen and (max-width: 1199px){
+    .sa_futureResource .container_custom{
+        flex-direction: column;
+        padding: 0;
+    }
+}

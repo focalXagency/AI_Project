@@ -1,0 +1,74 @@
+.fa_userwords-img{
+    width: 60px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fa_realwords-container{
+    width: 33.3333%;
+    padding-block: 80px;
+    padding-inline: 50px;
+}
+
+.fa_realwords-user_gap{
+    gap: 12px;
+}
+
+.fa_realwords-card_body{
+    margin-top: 63px;
+    padding: 50px 30px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--dark-15);
+    background-color: var(--dark-10);
+}
+
+.fa_realword-rate{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1919px){
+    .fa_userwords-img{
+        width: 50px;
+    }
+    .fa_realwords-container{
+        padding-block: 60px;
+        padding-inline: 40px;
+    }
+    .fa_realwords-user_gap{
+        gap: 10px;
+    }
+    .fa_realword-rate{
+        padding: 8px 12px;
+        font-size: 20px;
+        gap: 4px;
+    }
+    .fa_realwords-card_body{
+        margin-top: 47px;
+        padding: 40px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .fa_realwords-container{
+        width: 50%;
+        padding-inline: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .fa_realwords-container{
+        padding-block: 40px;
+        width: 100%;
+        padding-inline: 0px;
+    }
+}

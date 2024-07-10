@@ -1,0 +1,193 @@
+.HJ_bepart {
+    display: flex;
+    padding: 120px 0px;
+    gap: 100px;
+    border-top: 1px solid var(--dark-15);
+    border-bottom: 1px solid var(--dark-15);
+    background: var(--dark-10);
+}
+
+.HJ_bepart .HJ_part_one {
+    display: flex;
+    align-items: center;
+}
+
+.HJ_bepart .HJ_part_one .HJ_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+.HJ_bepart .HJ_part_one .HJ_body .HJ_image_logo {
+    width: 149.998px;
+    height: 149.999px;
+}
+
+.HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_subTitle {
+    width: max-content;
+    border-radius: 4px;
+    background: var(--dark-20);
+    font-family: var(--inter);
+    color: var(--absolute-White);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    padding: 6px 10px;
+}
+
+.HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_title {
+    color: var(--absolute-White);
+    font-family: var(--kumbh-sans);
+    font-style: normal;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: -1.74px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_paragraph {
+    font-family: var(--inter);
+    color: var(--gray-50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HJ_bepart .HJ_part_two {
+    border-radius: 12px;
+    border: 1px solid var(--dark-15);
+    background: var(--dark-08);
+    padding: 20px;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1919px) {
+    .HJ_bepart {
+        padding: 80px 0;
+        gap: 50px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_image_logo {
+        width: 119.999px;
+        height: 120px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_subTitle {
+        width: max-content;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        padding: 4px 8px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_title {
+        font-size: 44px;
+        letter-spacing: -1.32px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_paragraph {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body {
+        gap: 60px;
+
+    }
+
+    .HJ_bepart .HJ_part_two {
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .HJ_bepart {
+        padding: 28px 0;
+        gap: 35px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_image_logo {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -28px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_subTitle {
+        width: max-content;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+        margin-left: 80px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_title {
+        font-size: 28px;
+        letter-spacing: -0.84px;
+        margin-bottom: 4px;
+        margin-top: 20px;
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        margin-top: 20px;
+
+    }
+
+    .HJ_bepart .HJ_part_one .HJ_body .HJ_information .HJ_paragraph {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    
+    .HJ_bepart .HJ_part_two {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .HJ_bepart .HJ_part_two .HJ_Bepart_Card:nth-child(1),
+    .HJ_bepart .HJ_part_two .HJ_Bepart_Card:nth-child(2){
+        width: 49%;
+    }
+
+    .HJ_bepart .HJ_part_two .HJ_Bepart_Card:nth-child(3){
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_bepart {
+        display: flex;
+        padding: 40px 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .HJ_bepart .HJ_part_two {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .HJ_bepart .HJ_part_two .HJ_Bepart_Card{
+        width: 100% !important;
+    }
+}
+

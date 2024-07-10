@@ -1,0 +1,57 @@
+.HJ_FutureFeaturesCard{
+  width: 443.5px;
+  height: 190px;
+  border-radius: 12px;
+  border: 1px solid var(--dark-15);
+  background: var(--dark-10); 
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+@media screen and (max-width: 1919px) {
+
+  .HJ_FutureFeaturesCard{
+    width:363.5px ;
+    height: 154px;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 16px;
+   
+  }
+
+}
+@media screen and (max-width: 1051px) and (min-width : 992px){
+  .HJ_FutureFeaturesCard{
+    width:330px ;
+    height: 154px;
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .HJ_FutureFeaturesCard{
+    width:100%;
+    height: 121px;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 576px){
+
+  .HJ_FutureFeaturesCard{
+    width:100%;
+    height: 121px;
+    border-radius: 10px;
+    padding: 24px;
+    gap: 4px;
+
+  }
+
+} 

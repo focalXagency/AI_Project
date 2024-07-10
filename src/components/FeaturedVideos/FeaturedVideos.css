@@ -1,0 +1,32 @@
+.fa_featured-videos_grid{
+    padding-inline: 16px;
+}
+
+.fa_featured-videos_grid .fa_featured_videos-card:nth-child(odd) {
+    padding-left: 0px !important;
+    border-right: 1px solid var(--dark-15);
+}
+.fa_featured-videos_grid .fa_featured_videos-card:nth-child(even) {
+    padding-right: 0px !important;
+}
+.fa_featured-videos_grid .fa_featured_videos-card:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -20vw;
+    width: 150vw;
+    height: 1px;
+    background-color: var(--dark-15);
+}
+
+@media screen and (max-width: 992px) {
+    .fa_featured-videos_grid .fa_featured_videos-card:nth-child(1)::after {
+        content: none;
+    }
+    .fa_featured-videos_grid .fa_featured_videos-card{
+        border-bottom: 1px solid var(--dark-15);
+    }
+    .fa_featured-videos_grid .fa_featured_videos-card:nth-child(odd) {
+        border-right: none;
+    }
+}

@@ -1,0 +1,109 @@
+.HJ_FutureTechFeatures{
+    border-top: 1px solid var(--dark-15);
+    background-color:  var(--dark-08);  
+}
+.HJ_FutureTechFeatures .HJ_parts{
+    justify-content: space-between;
+    align-items: center;
+}
+.HJ_FutureTechFeatures .HJ_gap_parts{
+    gap: 80px;
+}
+.HJ_FutureTechFeatures  .HJ_FutureFeatures_part1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
+    display: flex;
+    padding: 80px 0px 80px 80px; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-left: 1px solid var(--dark-15); 
+}
+
+.HJ_FutureTechFeatures  .HJ_FutureFeatures_part2 .HJ_gap{
+    gap: 30px;
+}
+
+@media screen and (max-width: 1919px) {
+
+    .HJ_FutureTechFeatures .HJ_gap_parts{
+        gap: 60px;
+       
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
+        padding: 60px 0px 60px 60px; 
+        gap: 20px;
+    }
+   
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2 .HJ_gap{
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .HJ_FutureTechFeatures{
+        padding:0px 16px;
+    }
+    .HJ_FutureTechFeatures .HJ_parts{
+        align-items: center;
+    }
+    .HJ_FutureTechFeatures .HJ_gap_parts{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part1{
+        align-items: center;
+        padding: 50px 0px;
+
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
+        padding: 30px 0px;
+        gap: 20px;
+        border-top: 1px solid var(--dark-15);
+        border-left: none;
+
+        
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2 .HJ_gap{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .HJ_FutureTechFeatures{
+        padding: 0px;
+    }
+    .HJ_FutureTechFeatures .HJ_parts{
+        align-items: flex-start;
+    }
+    .HJ_FutureTechFeatures .HJ_gap_parts{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part1{
+        align-items: flex-start;
+        padding: 50px 0px;
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
+        padding: 30px 16px;
+        gap: 10px;
+        border-top: 1px solid var(--dark-15);
+    }
+    .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2 .HJ_gap{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+}

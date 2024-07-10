@@ -1,0 +1,56 @@
+.HJ_distance{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.HJ_learningResources .HJ_learning {
+    display: flex;
+    padding: 18px 38px;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1919px){
+
+    .HJ_learningResources .HJ_learning {
+        display: flex;
+        padding: 14px 24px !important;
+        gap: 10px;
+    }
+
+}
+
+
+@media screen and (max-width : 992px){
+
+    .HJ_distance{
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+    .HJ_learningResources .HJ_learning {
+        display: flex;
+        padding: 20px 30px !important;
+        gap: 10px;
+    }
+    
+}
+
+@media screen and (max-width : 576px){
+
+    .HJ_distance{
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .HJ_learningResources .HJ_learning {
+        display: flex;
+        padding: 14px 24px !important;
+        gap: 10px;
+    }
+}

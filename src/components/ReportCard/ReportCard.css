@@ -1,0 +1,110 @@
+.HJ_ReportCard {
+    display: flex;
+    flex-grow: 1;
+    padding: 80px 46px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-left: 1px solid var(--dark-15);
+}
+
+.HJ_ContentSectionCards .HJ_ReportCard:nth-child(1) {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: 0px;
+}
+
+.HJ_ContentSectionCards .HJ_ReportCard:nth-child(2) {
+    padding-right: 0px;
+}
+
+.HJ_ContentSectionCards .HJ_ReportCard:nth-child(3) {
+    padding-right: 0px;
+}
+
+.HJ_ReportCard .HJ_ReportIMG {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.HJ_ReportCard .HJ_title_CardReport {
+    font-family: var(--inter);
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.04125rem;
+}
+
+.HJ_ReportCard .HJ_CardReport_Buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.HJ_ReportCard .HJ_CardReport_Buttons .HJ_button_Report {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--dark-15);
+    padding: 18px 24px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+@media screen and (max-width: 1919px) {
+
+    .HJ_ReportCard {
+        padding: 60px 30px;
+        gap: 24px;
+    }
+
+    .HJ_ReportCard .HJ_title_CardReport {
+        font-size: 1.125rem;
+        letter-spacing: -0.03375rem;
+    }
+
+    .HJ_ReportCard .HJ_CardReport_Buttons {
+        gap: 10px;
+    }
+
+    .HJ_ReportCard .HJ_CardReport_Buttons .HJ_button_Report {
+        border-radius: 8px;
+        padding: 14px 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .HJ_ReportCard {
+        width: 100%;
+        flex-grow: 1;
+        padding: 50px 0px;
+        border-left: 0px;
+        border-bottom: 1px solid var(--dark-15);
+    }
+
+    .HJ_ReportCard .HJ_title_CardReport {
+        font-size: 1.2rem;
+        letter-spacing: -0.03rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .HJ_ReportCard {
+        width: 100%;
+        flex-grow: 1;
+        padding: 40px 0px;
+    }
+
+    .HJ_ReportCard .HJ_title_CardReport {
+        font-size: 1rem;
+        letter-spacing: -0.03rem;
+    }
+}
